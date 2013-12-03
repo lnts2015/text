@@ -42,6 +42,8 @@
 
 mongod --logpath d:\work\mongodb\logs\logfilename.log --logappend --dbpath D:\work\mongodb\data --install
 
+5.Êý¾Ý²âÊÔ
+
 
 
 
