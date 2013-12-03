@@ -32,7 +32,7 @@
 
 
 4.mongdb 的配置（service配置）
-	直接运行即可
+	直接运行即可.
 
 	D:\work\service\mongodb-win32-i386-2.0.3\bin>mongod.exe --install --logpath=D:\work\service\mongodb-win32-i386-2.0.3\log.txt --dbpath=D:\work\service\mongodb-win32-i386-2.0.3\DB
 
