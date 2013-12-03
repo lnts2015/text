@@ -1,0 +1,52 @@
+环境配置说明书：
+
+1.安装jdk并配置环境变量 
+
+	步骤如下： 
+	1.我的电脑-->属性-->高级-->环境变量. 
+	2.配置用户变量: 
+	a.新建 JAVA_HOME 
+	C:\Program Files\Java\j2sdk1.5.0 （JDK的安装路径） 
+	b.新建 PATH 
+	%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin 
+	c.新建 CLASSPATH 
+	.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar 
+	3.测试环境变量配置是否成功： 
+	开始-->运行--〉CMD 
+	键盘敲入： JAVAC JAVA 
+	出现相应的命令，而不是出错信息，即表示配置成功！ 
+
+2.tomcat 的配置:
+
+	把Tomcat压缩文件apache-tomcat-6.0.14.zip中的内容解压缩到指定的文件夹下（EG C:/apache-tomcat-6.0.14）下。
+
+	变量名：TOMCAT_HOME；
+	变量值：C:/apache-tomcat-6.0.14。
+	然后修改系统变量classpath，添加%TOMCAT_HOME%/common/lib/servlet-api.jar；
+	同时修改系统变量path，添加%TOMCAT_ HOME%/bin。
+
+3.maven 的配置
+
+	A、系统变量中新建一个变量，变量名为M2_HOME，变量值为Maven的安装目录。
+	B、系统变量中找到一个名为Path的变量，在变量值的末尾加上%M2_HOME%\bin;
+
+
+4.mongdb 的配置（service配置）
+	直接运行即可
+
+	D:\work\service\mongodb-win32-i386-2.0.3\bin>mongod.exe --install --logpath=D:\work\service\mongodb-win32-i386-2.0.3\log.txt --dbpath=D:\work\service\mongodb-win32-i386-2.0.3\DB
+
+	在运行：
+	D:\work\service\mongodb-win32-i386-2.0.3\bin>net start mongodb
+
+
+mongod --logpath d:\work\mongodb\logs\logfilename.log --logappend --dbpath D:\work\mongodb\data --install
+
+
+
+
+
+
+
+
+
