@@ -6,6 +6,6 @@ mobile
 sex
 age
 email
-baozi 
+
 
 
