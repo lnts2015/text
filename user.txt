@@ -6,6 +6,5 @@ mobile
 sex
 age
 email
-newPassword
-newPassword2
+
 
