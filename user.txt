@@ -6,6 +6,8 @@ mobile
 sex
 age
 email
+new
+new2
 
 
 
