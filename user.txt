@@ -1,4 +1,4 @@
-userName 
+﻿userName 
 userId
 password
 email
@@ -15,23 +15,6 @@ www.17zuoye.com
 
 学习的好网站
 
-<<<<<<< HEAD
-大混蛋
-=======
-
-<<<<<<< HEAD
-学习的好网站
-
-
-123
-
-
-
-
-
-=======
->>>>>>> remove
->>>>>>> origin/xinqiang.wang
 
 
 
