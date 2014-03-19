@@ -1,4 +1,5 @@
-﻿userName 
+﻿
+userName 
 userId
 password
 email
@@ -6,3 +7,4 @@ mobile
 sex
 age
 email
+-----------
