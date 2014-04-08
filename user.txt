@@ -7,3 +7,6 @@ mobile
 sex
 age
 email
+1
+2
+3
